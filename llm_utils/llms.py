@@ -7,12 +7,17 @@ from ..base_classes import RandomLLM
 from ..base_classes import InteractiveLLM
 from dotenv import load_dotenv
 # Import scripts for the different LLMs
-from .gpt import GPT3LLM, GPT4LLM
-from .anthropic import AnthropicLLM
-from .google import GoogleLLM
-from .hf import HF_API_LLM
+# from .gpt import GPT3LLM, GPT4LLM
+# from .anthropic import AnthropicLLM
+# from .google import GoogleLLM
+# from .hf import HF_API_LLM
+from .my_llama import LLAMA
+from .my_phi import PHI
+from .my_gemma import GEMMA
+from .my_qwen import QWEN
+import pdb
 
-def get_llm(engine, temp, max_tokens, with_suffix=False):
+def get_llm(engine, temp, max_tokens, gpus, with_suffix=False):
     '''
     Based on the engine name, returns the corresponding LLM object
     '''
@@ -31,28 +36,47 @@ def get_llm(engine, temp, max_tokens, with_suffix=False):
         max_tokens = 350
         cot = True
 
+    engine_list = []
+    act_list = []
+    
+    if engine.startswith('str'):
+        str_infos, engine = engine.split('+')
+        act, str_str = str_infos.split('_')[1:]
+        if str_str == "all":
+            str_str = -1
+        str_str = float(str_str)
+        
+
     # Check which engine is being used and assign the corresponding LLM object with the required parameters (e.g: API keys)
     if engine == "interactive":
         llm = InteractiveLLM('interactive')
-    elif engine.startswith("text-davinci") or engine.startswith("text-curie") or engine.startswith("text-babbage") or engine.startswith("text-ada"):
-        load_dotenv(); gpt_key = os.getenv("OPENAI_API_KEY")
-        llm = GPT3LLM((gpt_key, engine, with_suffix))
-    elif engine.startswith("gpt"):
-        # load_dotenv(); gpt_key = os.getenv(f"OPENAI_API_KEY{2 if engine == 'gpt-4' else ''}")
-        load_dotenv(); gpt_key = os.getenv(f"OPENAI_API_KEY")
-        llm = GPT4LLM((gpt_key, engine))
-    elif engine.startswith("claude"):
-        load_dotenv(); anthropic_key = os.getenv("ANTHROPIC_API_KEY")
-        llm = AnthropicLLM((anthropic_key, engine))
-    elif engine.startswith("hf") or engine.startswith("llama-2") :
-        llm = HF_API_LLM((engine, max_tokens, temp))
+    # elif engine.startswith("text-davinci") or engine.startswith("text-curie") or engine.startswith("text-babbage") or engine.startswith("text-ada"):
+    #     load_dotenv(); gpt_key = os.getenv("OPENAI_API_KEY")
+    #     llm = GPT3LLM((gpt_key, engine, with_suffix))
+    # elif engine.startswith("gpt"):
+    #     # load_dotenv(); gpt_key = os.getenv(f"OPENAI_API_KEY{2 if engine == 'gpt-4' else ''}")
+    #     load_dotenv(); gpt_key = os.getenv(f"OPENAI_API_KEY")
+    #     llm = GPT4LLM((gpt_key, engine))
+    # elif engine.startswith("claude"):
+    #     load_dotenv(); anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+    #     llm = AnthropicLLM((anthropic_key, engine))
+    # elif engine.startswith("hf") or engine.startswith("llama-2") :
+    #     llm = HF_API_LLM((engine, max_tokens, temp))
     # elif engine.startswith("gemini"):
     #     load_dotenv(); gemini_key = os.getenv("GOOGLE_CREDENTIALS_FILENAME2")
     #     llm = GeminiLLM((gemini_key, engine))
     #     llm.is_gemini = True #See the TODO below
-    elif ('bison' in engine):
-        load_dotenv(); google_key = os.getenv("GOOGLE_CREDENTIALS_FILENAME2")
-        llm = GoogleLLM((google_key, engine))
+    # elif ('bison' in engine):
+    #     load_dotenv(); google_key = os.getenv("GOOGLE_CREDENTIALS_FILENAME2")
+    #     llm = GoogleLLM((google_key, engine))
+    elif engine.startswith('Llama'):
+        llm = LLAMA((engine, max_tokens, temp, gpus))
+    elif engine.startswith('Qwen'):
+        llm = QWEN((engine, max_tokens, temp, gpus))
+    elif engine.startswith('phi'):
+        llm = PHI((engine, max_tokens, temp, gpus))
+    elif engine.startswith('gemma'):
+        llm= GEMMA((engine, max_tokens, temp))
     else:
         print('No key found')
         llm = RandomLLM(engine)

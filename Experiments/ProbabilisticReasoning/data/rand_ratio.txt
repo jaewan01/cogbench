@@ -1,0 +1,128 @@
+str_none+Llama-3.1-8B-Instruct 0.04
+str_depressed mood_-0.25+Llama-3.1-8B-Instruct 0.085
+str_depressed mood_0.25+Llama-3.1-8B-Instruct 0.44
+str_risk-aversion_-0.25+Llama-3.1-8B-Instruct 0.125
+str_risk-aversion_0.25+Llama-3.1-8B-Instruct 0.005
+str_manic mood_-0.25+Llama-3.1-8B-Instruct 0.005
+str_manic mood_0.25+Llama-3.1-8B-Instruct 0.32
+str_risk-seeking_-0.25+Llama-3.1-8B-Instruct 0.025
+str_risk-seeking_0.25+Llama-3.1-8B-Instruct 0.025
+str_random 0_0.25+Llama-3.1-8B-Instruct 0.075
+str_random 1_0.25+Llama-3.1-8B-Instruct 0.01
+str_random 2_0.25+Llama-3.1-8B-Instruct 0.26
+str_random 3_0.25+Llama-3.1-8B-Instruct 0.095
+str_random 4_0.25+Llama-3.1-8B-Instruct 0.03
+str_random 5_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 6_0.25+Llama-3.1-8B-Instruct 0.005
+str_random 7_0.25+Llama-3.1-8B-Instruct 0.04
+str_random 8_0.25+Llama-3.1-8B-Instruct 0.035
+str_random 9_0.25+Llama-3.1-8B-Instruct 0.015
+str_none+Llama-3.1-8B-Instruct 0.005
+str_depressed mood_-0.25+Llama-3.1-8B-Instruct 0.165
+str_depressed mood_0.25+Llama-3.1-8B-Instruct 0.01
+str_risk-aversion_-0.25+Llama-3.1-8B-Instruct 0.04
+str_risk-aversion_0.25+Llama-3.1-8B-Instruct 0.025
+str_manic mood_-0.25+Llama-3.1-8B-Instruct 0.015
+str_manic mood_0.25+Llama-3.1-8B-Instruct 0.065
+str_risk-seeking_-0.25+Llama-3.1-8B-Instruct 0.03
+str_risk-seeking_0.25+Llama-3.1-8B-Instruct 0.075
+str_random 0_0.25+Llama-3.1-8B-Instruct 0.055
+str_random 1_0.25+Llama-3.1-8B-Instruct 0.03
+str_random 2_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 3_0.25+Llama-3.1-8B-Instruct 0.005
+str_random 4_0.25+Llama-3.1-8B-Instruct 0.035
+str_random 5_0.25+Llama-3.1-8B-Instruct 0.025
+str_random 6_0.25+Llama-3.1-8B-Instruct 0.005
+str_random 7_0.25+Llama-3.1-8B-Instruct 0.015
+str_random 8_0.25+Llama-3.1-8B-Instruct 0.025
+str_random 9_0.25+Llama-3.1-8B-Instruct 0.01
+str_none+Llama-3.1-8B-Instruct 0.005
+str_depressed mood_-0.25+Llama-3.1-8B-Instruct 0.165
+str_depressed mood_0.25+Llama-3.1-8B-Instruct 0.01
+str_risk-aversion_-0.25+Llama-3.1-8B-Instruct 0.04
+str_risk-aversion_0.25+Llama-3.1-8B-Instruct 0.025
+str_manic mood_-0.25+Llama-3.1-8B-Instruct 0.015
+str_manic mood_0.25+Llama-3.1-8B-Instruct 0.065
+str_risk-seeking_-0.25+Llama-3.1-8B-Instruct 0.03
+str_risk-seeking_0.25+Llama-3.1-8B-Instruct 0.075
+str_random 0_0.25+Llama-3.1-8B-Instruct 0.055
+str_random 1_0.25+Llama-3.1-8B-Instruct 0.03
+str_random 2_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 3_0.25+Llama-3.1-8B-Instruct 0.005
+str_random 4_0.25+Llama-3.1-8B-Instruct 0.035
+str_random 5_0.25+Llama-3.1-8B-Instruct 0.025
+str_random 6_0.25+Llama-3.1-8B-Instruct 0.005
+str_random 7_0.25+Llama-3.1-8B-Instruct 0.015
+str_random 8_0.25+Llama-3.1-8B-Instruct 0.025
+str_random 9_0.25+Llama-3.1-8B-Instruct 0.01
+str_none+Llama-3.1-8B-Instruct 0.0
+str_depressed mood_-0.25+Llama-3.1-8B-Instruct 0.0
+str_none+Llama-3.1-8B-Instruct 0.0
+str_depressed mood_-0.25+Llama-3.1-8B-Instruct 0.0
+str_depressed mood_0.25+Llama-3.1-8B-Instruct 0.0
+str_risk-aversion_-0.25+Llama-3.1-8B-Instruct 0.005
+str_none+Llama-3.1-8B-Instruct 0.0
+str_depressed mood_-0.25+Llama-3.1-8B-Instruct 0.0
+str_depressed mood_0.25+Llama-3.1-8B-Instruct 0.0
+str_risk-aversion_-0.25+Llama-3.1-8B-Instruct 0.005
+str_risk-aversion_0.25+Llama-3.1-8B-Instruct 0.0
+str_manic mood_-0.25+Llama-3.1-8B-Instruct 0.0
+str_manic mood_0.25+Llama-3.1-8B-Instruct 0.135
+str_risk-seeking_-0.25+Llama-3.1-8B-Instruct 0.0
+str_risk-seeking_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 0_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 1_0.25+Llama-3.1-8B-Instruct 0.01
+str_random 2_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 3_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 4_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 5_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 6_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 7_0.25+Llama-3.1-8B-Instruct 0.0
+str_random 8_0.25+Llama-3.1-8B-Instruct 0.035
+str_random 9_0.25+Llama-3.1-8B-Instruct 0.0
+str_none+Qwen3-0.6B 0.0
+str_depressed mood_0.25+Qwen3-0.6B 0.04
+str_low self-esteem_0.25+Qwen3-0.6B 0.035
+str_negativity bias_0.25+Qwen3-0.6B 0.0
+str_guilt_0.25+Qwen3-0.6B 0.21
+str_risk-aversion_0.25+Qwen3-0.6B 0.96
+str_self-destruction_0.25+Qwen3-0.6B 0.055
+str_manic mood_0.25+Qwen3-0.6B 0.065
+str_grandiosity_0.25+Qwen3-0.6B 0.0
+str_positivity bias_0.25+Qwen3-0.6B 0.0
+str_lack of remorse_0.25+Qwen3-0.6B 0.015
+str_risk-seeking_0.25+Qwen3-0.6B 0.005
+str_hostility_0.25+Qwen3-0.6B 0.05
+str_random 0_0.25+Qwen3-0.6B 0.0
+str_random 1_0.25+Qwen3-0.6B 0.395
+str_random 2_0.25+Qwen3-0.6B 0.0
+str_random 3_0.25+Qwen3-0.6B 0.0
+str_random 4_0.25+Qwen3-0.6B 0.0
+str_random 5_0.25+Qwen3-0.6B 0.0
+str_random 6_0.25+Qwen3-0.6B 0.045
+str_random 7_0.25+Qwen3-0.6B 0.0
+str_random 8_0.25+Qwen3-0.6B 0.035
+str_random 9_0.25+Qwen3-0.6B 0.0
+str_none+Qwen3-32B 0.0
+str_depressed mood_0.25+Qwen3-32B 0.0
+str_low self-esteem_0.25+Qwen3-32B 0.0
+str_negativity bias_0.25+Qwen3-32B 0.0
+str_guilt_0.25+Qwen3-32B 0.0
+str_risk-aversion_0.25+Qwen3-32B 0.0
+str_self-destruction_0.25+Qwen3-32B 0.0
+str_manic mood_0.25+Qwen3-32B 0.0
+str_grandiosity_0.25+Qwen3-32B 0.0
+str_positivity bias_0.25+Qwen3-32B 0.0
+str_lack of remorse_0.25+Qwen3-32B 0.0
+str_risk-seeking_0.25+Qwen3-32B 0.0
+str_hostility_0.25+Qwen3-32B 0.0
+str_random 0_0.25+Qwen3-32B 0.0
+str_random 1_0.25+Qwen3-32B 0.0
+str_random 2_0.25+Qwen3-32B 0.0
+str_random 3_0.25+Qwen3-32B 0.0
+str_random 4_0.25+Qwen3-32B 0.0
+str_random 5_0.25+Qwen3-32B 0.0
+str_random 6_0.25+Qwen3-32B 0.0
+str_random 7_0.25+Qwen3-32B 0.0
+str_random 8_0.25+Qwen3-32B 0.0
+str_random 9_0.25+Qwen3-32B 0.0
